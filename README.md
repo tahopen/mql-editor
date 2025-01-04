@@ -4,7 +4,7 @@
 #### Pre-requisites for building the project:
 * Maven, version 3+
 * Java JDK 11
-* This [settings.xml](https://github.com/pentaho/maven-parent-poms/blob/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
+* This [settings.xml](https://github.com/tahopen/maven-parent-poms/blob/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
 
 #### Building it
 
