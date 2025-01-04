@@ -6,13 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho</groupId>
-    <artifactId>pentaho-mql-editor</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-mql-editor</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>pentaho-mql-editor-impl</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-mql-editor-impl</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <dependencies>
     <!--  Compile  -->
@@ -21,11 +21,11 @@
       <artifactId>commons-lang</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-metadata</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-metadata</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
     </dependency>
     <dependency>
@@ -48,23 +48,23 @@
       <version>${gwt.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-gwt-widgets</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-gwt-impl</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-swing</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-swt</artifactId>
     </dependency>
     <!--  Test  -->
@@ -73,8 +73,8 @@
       <artifactId>junit</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-core</artifactId>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>

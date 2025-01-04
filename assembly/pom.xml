@@ -3,27 +3,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>pentaho-mql-editor-package</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-mql-editor-package</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
 
   <parent>
-    <groupId>org.pentaho</groupId>
-    <artifactId>pentaho-mql-editor</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-mql-editor</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <name>Pentaho MQL Editor Package</name>
+  <name>Tahopen MQL Editor Package</name>
   <packaging>war</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-mql-editor-impl</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-mql-editor-impl</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-mql-editor-impl</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-mql-editor-impl</artifactId>
       <version>${project.version}</version>
       <classifier>sources</classifier>
       <scope>provided</scope>
@@ -34,7 +34,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-gwt-widgets</artifactId>
       <classifier>sources</classifier>
     </dependency>
