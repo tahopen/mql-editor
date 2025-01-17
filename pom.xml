@@ -10,7 +10,7 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-jar-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <licenses>
@@ -27,10 +27,10 @@
     <commons-xul.version>0.1.0.0-SNAPSHOT</commons-xul.version>
     <jettison.version>1.2</jettison.version>
     <junit.version>4.3.1</junit.version>
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
-    <pentaho-cwm.version>0.1.0.0-SNAPSHOT</pentaho-cwm.version>
-    <pentaho-metadata.version>0.1.0.0-SNAPSHOT</pentaho-metadata.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
+    <pdi.version>0.1.0.0</pdi.version>
+    <pentaho-cwm.version>0.1.0.0</pentaho-cwm.version>
+    <pentaho-metadata.version>0.1.0.0</pentaho-metadata.version>
+    <platform.version>0.1.0.0</platform.version>
     <license.licenseName>lgpl_v2_1</license.licenseName>
   </properties>
 

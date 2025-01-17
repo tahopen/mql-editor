@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>tahopen-mql-editor-package</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
 
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-mql-editor</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <name>Tahopen MQL Editor Package</name>
